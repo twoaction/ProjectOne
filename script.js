@@ -18,8 +18,7 @@ changeColorBtn.addEventListener('click', () => {
 const removeColorBtn = document.getElementById('removeColor');
 
 removeColorBtn.addEventListener('click', () => {
-    body.style.background = ""; // Сброс всего фона
-    // Или: body.style.backgroundColor = ""; (только для цвета)
+    body.style.background = ""; 
 });
 
 const gradientColorBtn = document.getElementById('gradientColor');
